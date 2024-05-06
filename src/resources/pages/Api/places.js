@@ -10,8 +10,6 @@
 // } from "@reach/combobox";
 // import "@reach/combobox/styles.css";
 
-// const googleMapsApiKey = "AIzaSyBNF55iCM8nQAVWRNj_NfzEcH09tcHIdhs";
-
 // export default function Places({setAddress, setZipcode}) {
 //   const { isLoaded } = useLoadScript({
 //     googleMapsApiKey, 
