@@ -8,7 +8,7 @@ import SecondPlow from '../../images/plow.png';
 import SecondMow from '../../images/mow.png';    
 import SecondTime from '../../images/time.png';
 import SecondChoose from '../../images/choose.png';
-import Places from '../Api/places.js';
+// import Places from '../Api/places.js';
 import { useAuth } from '../Api/AuthContext.js'; 
 import { useReq } from '../Api/ReqContext.js';
 
@@ -66,7 +66,7 @@ const Home = () => {
                         </div>
                         <div className="form">
                             <form onSubmit={handleSubmit}>
-                                <Places className="address" setAddress={setAddressTemp} setZipcode={setZipcodeTemp}/>
+                                {/* <Places className="address" setAddress={setAddressTemp} setZipcode={setZipcodeTemp}/> */}
                                 <button
                                     type="button" 
                                     className="mow"
