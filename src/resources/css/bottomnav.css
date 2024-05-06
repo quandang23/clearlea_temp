@@ -1,0 +1,198 @@
+.bottomNav {
+    display: block;
+}
+
+.bottomNav .block {
+    background-color: #2c471c;
+    height: 338px;
+    position: relative;
+    bottom: 0;
+    left: 0; 
+    width: 100%;
+    display: flex; 
+}
+
+.bottomNav .container {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    position: relative;
+    width: 100%; 
+    height: auto; 
+    margin: 0 auto;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.bottomNav .bot-nav .request {
+    color: #ffffff;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    left: 662px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 188px;
+    width: 81px;
+}
+
+.bottomNav .bot-nav .provider {
+    color: #ffffff;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    left: 675px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 224px;
+    width: 81px;
+}
+
+.bottomNav .bot-nav .about {
+    color: #ffffff;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    left: 106px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 188px;
+    white-space: nowrap;
+    width: 66px;
+}
+
+.bottomNav .bot-nav .careers {
+    color: #ffffff;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    left: 106px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 224px;
+    white-space: nowrap;
+    width: 66px;
+}
+
+.bottomNav .bot-nav .company {
+    color: #ffffff;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 106px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 141px;
+    width: 94px;
+}
+
+.bottomNav .bot-nav .products {
+    color: #ffffff;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 673px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 141px;
+    width: 94px;
+}
+
+.bottomNav .bot-nav .privacy {
+    color: #ffffff;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    left: 1152px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 188px;
+    width: 70px;
+}
+    
+.bottomNav .bot-nav .terms {
+    color: #ffffff;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    left: 1152px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 223px;
+    width: 70px;
+}
+
+.bottomNav .bot-nav .companyName {
+    color: #ffffff;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 106px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 58px;
+    width: 161px;
+}
+
+.bottomNav .bot-nav .facebook {
+    height: 25px;
+    left: 1152px;
+    object-fit: cover;
+    position: absolute;
+    top: 144px;
+    width: 20px;
+}
+
+.bottomNav .bot-nav .twitter {
+    height: 17px;
+    left: 1197px;
+    object-fit: cover;
+    position: absolute;
+    top: 148px;
+    width: 20px;
+}
+    
+.bottomNav .bot-nav .youtube {
+    height: 20px;
+    left: 1242px;
+    object-fit: cover;
+    position: absolute;
+    top: 147px;
+    width: 20px;
+    
+}
+   
+.bottomNav .bot-nav .instagram {
+    height: 20px;
+    left: 1287px;
+    object-fit: cover;
+    position: absolute;
+    top: 147px;
+    width: 20px;
+    
+}
+    
+.bottomNav .bot-nav .linkedin {
+    height: 15px;
+    left: 1332px;
+    object-fit: cover;
+    position: absolute;
+    top: 150px;
+    width: 20px;
+    
+}
+
+.bottomNav a {
+    text-decoration: none;
+    color: white;
+}

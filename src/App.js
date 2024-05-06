@@ -1,31 +1,17 @@
-import logo from './logo.svg';
+import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
+import Navbar from './resources/pages//Sections/Navbar';
+import BottomNav from './resources/pages/Sections/BottomNav';
 import './App.css';
-import { useEffect } from 'react';
 
 function App() {
 
-  useEffect(() => {
-    console.log("hello"); 
-  }, [])
-
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <h1>Hello from Quan Dang</h1>
-        <h2>Keep up the good work buddy</h2>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+        <Navbar />
+        <BottomNav />
+      </BrowserRouter>
     </div>
   );
 }

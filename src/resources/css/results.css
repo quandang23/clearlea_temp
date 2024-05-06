@@ -1,0 +1,51 @@
+.results {
+    display: block;
+}
+
+.results .section {
+    background-color: #e1e4d2;
+    display: flex; 
+    position: relative;
+    width: 100%;
+    margin: 0 auto; 
+    height: 663px;
+}
+
+.results .section .container {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    position: relative;
+    width: 100%; 
+    height: auto; 
+    margin: 0 auto;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.results .textbox {
+    height: 350px;
+    left: 91px;
+    position: absolute;
+    width: 500px;
+    top: 40px; 
+}
+
+.results .text {
+    color: #2c471c;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.results .providerList {
+    background-color: white;
+    display: flex; 
+    position: relative;
+    width: 100%;
+    margin: 0 auto; 
+    height: 300px;
+    border-radius: 20px;
+}

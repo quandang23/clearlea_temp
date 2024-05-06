@@ -1,0 +1,60 @@
+.request {
+    text-align: center; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.request .section {
+    background-color: #ffffff;
+    display: flex; 
+    position: relative;
+    width: 100%;
+    margin: 0 auto; 
+    height: 404px;
+}
+
+.request .section .container {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    position: relative;
+    width: 100%; 
+    height: auto; 
+    margin: 0 auto;
+    overflow: hidden;
+    z-index: 0;
+    margin-top: 50px; 
+}
+
+.request .text {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.request .google {
+    background-color: rgb(209, 206, 206); /* Google Blue */
+    width: 300px;
+    border-color: black;
+    border-radius: 10px;
+    border: 2px solid;
+}
+
+.request .google .p {
+    color: black;
+    font-size: 18px;
+    font-family: "Inter-Bold", Helvetica;
+    margin-left: 50px; 
+}
+
+.request .google .pic {
+    height: 25px;
+    object-fit: cover;
+    width: 25px;
+    position: absolute;
+    top: 98px; 
+    left: 600px; 
+}

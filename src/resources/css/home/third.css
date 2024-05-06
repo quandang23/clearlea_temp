@@ -1,0 +1,106 @@
+.third {
+    display: block;
+}
+
+.third .section {
+    background-color: #ffffff;
+    display: flex; 
+    position: relative;
+    width: 100%;
+    margin: 0 auto; 
+    height: 500px;
+}
+
+.third .section .container {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    position: relative;
+    width: 100%; 
+    height: auto; 
+    margin: 0 auto;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.third .textbox {
+    height: 215px;
+    left: 850px;
+    position: absolute;
+    top: 60px;
+    width: 490px;
+}
+
+.third .textbox .text {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 490px;
+}
+
+.third .textbox .text2 {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    top: 178px;
+    width: 485px;
+}
+
+.third .container .makeMoney {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: 250px;
+    width: 452px;
+}    
+
+.third .container .signup1 {
+    background-color: #196706;
+    color: white;
+    border: 2px solid;
+    border-color: #000000;
+    border-radius: 10px;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    height: 52px;
+    left: 850px;
+    position: absolute;
+    top: 413px;
+    width: 130px;
+}
+
+.third .container .login1 {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 999px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-decoration: underline;
+    top: 406px;
+    width: 320px;
+}
+
+.third .pic2 {   
+    height: 350px;
+    left: 91px;
+    object-fit: cover;
+    position: absolute;
+    top: 118px;
+    width: 700px;
+    border-radius: 30px;
+}
