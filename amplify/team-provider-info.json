@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-clearlea-dev-b2169-authRole",
+      "UnauthRoleArn": "arn:aws:iam::619997544220:role/amplify-clearlea-dev-b2169-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::619997544220:role/amplify-clearlea-dev-b2169-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-clearlea-dev-b2169-deployment",
+      "UnauthRoleName": "amplify-clearlea-dev-b2169-unauthRole",
+      "StackName": "amplify-clearlea-dev-b2169",
+      "StackId": "arn:aws:cloudformation:us-east-1:619997544220:stack/amplify-clearlea-dev-b2169/6b3d7990-0cf0-11ef-94dc-122f5e65409b",
+      "AmplifyAppId": "d3cctqcb7jdbm5"
+    },
+    "categories": {
+      "auth": {
+        "clearleaff0855c7": {}
+      }
+    }
+  }
+}
