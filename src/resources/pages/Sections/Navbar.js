@@ -1,7 +1,7 @@
 import { NavLink, Routes, Route } from "react-router-dom";
 import "../../css/navbar.css"; 
 import Home from "./Home";
-import Request from "./Request.js";
+import Request from "../../../Request.js";
 import About from "./About";
 import Provider from "./Provider";
 import Help from "./Help";

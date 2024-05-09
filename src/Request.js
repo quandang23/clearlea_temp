@@ -1,7 +1,7 @@
-import '../../css/request.css'; 
-import Google from "../../images/google.png";
+import './resources/css/request.css'; 
+// import Google from "../../images/google.png";
 import React, { useEffect } from 'react';
-import { useAuth } from '../Api/AuthContext.js';
+import { useAuth } from './resources/pages/Api/AuthContext.js';
 import { Amplify } from 'aws-amplify';
 
 import { Authenticator } from '@aws-amplify/ui-react';
